@@ -46,7 +46,7 @@ $result = mysqli_query($conn,$sql);
         <li> <a href="#"><i class="fas fa-calendar-alt"></i><span>My Schedule</span></a></li>
         <li><a href="manage-doctors.php"><i class="fa-solid fa-user-doctor"></i><span>Doctor</span></a></li>
         <li><a href="manage-patient.php"><i class="fas fa-users"></i><span>Patients</span></a> </li>
-        <li><a href="#"><i class="fas fa-file-medical"></i> <span>Prescriptions</span></a> </li>
+        <li><a href="#"><i class="fas fa-ambulance"></i> <span>Ambulance</span></a> </li>
         <li><a href="#"><i class="fas fa-chart-line"></i> <span>Reports</span></a></li>
         <li><a href="#"><i class="fas fa-cog"></i><span>Settings</span></a></li>
     </ul>
