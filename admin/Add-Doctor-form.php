@@ -9,6 +9,7 @@ if(isset($_POST['save'])){
     $experience = $_POST['experience'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
+    $fee = $_POST['fee'];
 
     // Photo Upload
     $photo = $_FILES['photo']['name'];
