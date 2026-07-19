@@ -77,7 +77,7 @@ session_start();
             </div>
         </div>
         <div class="hero-image">
-            <img src="https://img.freepik.com/free-photo/portrait-successful-mid-adult-doctor-with-crossed-arms_1262-12865.jpg?w=740" alt="Doctor" style="width: 900px;">
+            <img src="https://img.freepik.com/free-photo/portrait-successful-mid-adult-doctor-with-crossed-arms_1262-12865.jpg?w=740" alt="Doctor" style="width: 1000px height: 500;">
         </div>
 
 
@@ -142,8 +142,8 @@ session_start();
 
     <div class="footer-section">
         <h3>Contact</h3>
-        <p>Email: dsah20911@gmail.com</p>
-        <p>Phone: +977-9815800230</p>
+        <p>Email: indalkumarmahara546@gmail.com</p>
+        <p>Phone: +977-9829747198</p>
     </div>
 </footer>
 

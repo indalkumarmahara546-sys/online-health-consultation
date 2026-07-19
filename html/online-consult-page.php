@@ -127,8 +127,8 @@ while($row = mysqli_fetch_assoc($result)){
         </div>
         <div class="footer-section">
             <h3>Contact</h3>
-            <p>Email: dsah20911@gmail.com</p>
-            <p>Phone: +977-9825800230</p>
+            <p>Email: indalkumarmahara546@gmail.com</p>
+            <p>Phone: +977-9829747198</p>
         </div>
     </footer>
 
