@@ -83,7 +83,7 @@ while($row = mysqli_fetch_assoc($result)){
 
 <div class="doctor-name">
 
-    <img src="../upload/<?php echo $row['profile_picture']; ?>" class="doctor-image">
+    <img src="../uploads/<?php echo $row['profile_picture']; ?>" class="doctor-image">
 
     <dl class="doctor-id">
         <dt><h3><?php echo $row['fullname']; ?></h3></dt>
