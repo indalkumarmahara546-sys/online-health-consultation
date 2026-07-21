@@ -24,7 +24,7 @@ include("../db.php");
         <i class="fa-solid fa-arrow-left"></i> Back
     </a>
 
-    <h2><i class="fa-solid fa-calendar-check"></i> Manage Patients</h2></div>
+    <h2><i class="fa-solid fa-calendar-check"></i> Manange Doctors</h2></div>
 
         <div class="top-actions">
 
