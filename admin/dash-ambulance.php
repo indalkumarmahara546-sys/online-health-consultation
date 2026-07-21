@@ -48,7 +48,12 @@ $result = mysqli_query($conn, $sql);
 <div class="container">
 
     <div class="header">
-        <h2><i class="fa-solid fa-user-doctor"></i> Manage Ambulance</h2>
+        <div class="page-header">
+    <a href="admin-dashboard.php" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back
+    </a>
+
+    <h2><i class="fa-solid fa-calendar-check"></i> Manage Patients</h2></div>
         <div class="top-actions">
             <div class="search-box">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -85,7 +90,7 @@ while($row = mysqli_fetch_assoc($result))
     <td><?php echo $row['id']; ?></td>
 
     <td>
-        <img src="../upload/<?php echo $row['picture']; ?>" class="ambulance-img">
+        <img src="../uploads/<?php echo $row['picture']; ?>" class="ambulance-img">
     </td>
 
     <td><?php echo $row['name']; ?></td>
@@ -161,6 +166,10 @@ editButtons.forEach(function(button){
 // ===============================
 document.querySelector(".add-btn").addEventListener("click", function(){
     alert("Open Add Ambulance Form");
-});</script>
+});
+<a href="javascript:history.back()" class="back-btn">
+    <i class="fa-solid fa-arrow-left"></i> Back
+</a>
+</script>
 </body>
 </html>

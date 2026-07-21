@@ -11,7 +11,7 @@
 $picture = $_FILES['picture']['name'];
 $temp = $_FILES['picture']['tmp_name'];
 
-move_uploaded_file($temp, "../upload/" . $picture);
+move_uploaded_file($temp, "../uploads/" . $picture);
     $name = $_POST['name'];
     $address = $_POST['address'];
     $email = $_POST['email'];

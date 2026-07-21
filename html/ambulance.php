@@ -86,7 +86,7 @@ if(mysqli_num_rows($result) > 0){
 ?>
 
 <div class="doctor-name">
-<img src="../upload/<?php echo $row['picture']; ?>" class="ambulance-img">       
+<img src="../uploads/<?php echo $row['picture']; ?>" class="ambulance-img">       
 
     <dl class="doctor-id">
         <dt><h3><?php echo $row['name']; ?></h3> </dt>

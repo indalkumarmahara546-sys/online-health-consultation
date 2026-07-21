@@ -19,7 +19,12 @@ include("../db.php");
 <div class="container">
 
     <div class="header">
-        <h2><i class="fa-solid fa-user-doctor"></i> Manage Doctors</h2>
+        <div class="page-header">
+    <a href="admin-dashboard.php" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back
+    </a>
+
+    <h2><i class="fa-solid fa-calendar-check"></i> Manage Patients</h2></div>
 
         <div class="top-actions">
 
@@ -190,7 +195,11 @@ document.querySelector(".add-btn").addEventListener("click", function(){
 
     alert("Open Add Doctor Form");
 
-});</script>
+}); 
+<a href="javascript:history.back()" class="back-btn">
+    <i class="fa-solid fa-arrow-left"></i> Back
+</a>
+</script>
 
 </body>
 </html>

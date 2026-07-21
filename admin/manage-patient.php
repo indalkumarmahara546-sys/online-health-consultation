@@ -60,8 +60,14 @@ $rejected = mysqli_num_rows(mysqli_query($conn,"SELECT * FROM book_appointments 
 <div class="container">
 
 <div class="header">
+    <div class="page-header">
+    <a href="admin-dashboard.php" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back
+    </a>
 
-<h2><i class="fa-solid fa-calendar-check"></i>Manage Patients</h2>
+    <h2><i class="fa-solid fa-calendar-check"></i> Manage Patients</h2>
+</div>
+
 
 <div class="search-box">
 <input type="text" id="searchInput" placeholder="Search Patient..."onkeyup="searchPatient()">
@@ -201,7 +207,9 @@ tr[i].style.display="none";
 }
 
 }
-
+<a href="javascript:history.back()" class="back-btn">
+    <i class="fa-solid fa-arrow-left"></i> Back
+</a>
 </script>
 
 </body>
