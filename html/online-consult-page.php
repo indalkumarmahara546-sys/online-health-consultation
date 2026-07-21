@@ -97,9 +97,9 @@ while($row = mysqli_fetch_assoc($result)){
         <dd>Fee : Rs. <?php echo $row['fee']; ?></dd>
     </dl>
 
-    <a href="<?php echo isset($_SESSION['user_id']) ? 'direct-consult.php?id='.$row['id'] : 'login.php?action=consult'; ?>">
-        <input type="button" class="call" value="Consult Now">
-    </a>
+    <a href="<?php echo isset($_SESSION['user_id']) ? 'payment.php?id='.$row['id'] : 'login.php?action=consult'; ?>">
+    <input type="button" class="call" value="Consult Now">
+</a>
 
     <br>
 

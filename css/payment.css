@@ -1,0 +1,144 @@
+body{
+    background:#f4f4f4;
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+/* Payment Card */
+.payment-box{
+    width:380px;
+    max-width:95%;
+    margin:40px auto;
+    background:#fff;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+/* Doctor Image */
+.doctor-img{
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    border:4px solid #0d6efd;
+    object-fit:cover;
+    margin-bottom:10px;
+}
+
+.payment-box h2{
+    margin-bottom:15px;
+    color:#333;
+}
+
+.payment-box h3{
+    margin:8px 0;
+    color:#333;
+}
+
+.payment-box p{
+    margin:5px 0;
+    color:#666;
+}
+
+/* Payment Grid */
+.payment-methods{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-top:20px;
+}
+
+/* Payment Option */
+.payment-methods label{
+    position:relative;
+    height:90px;
+    border:2px solid #ddd;
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition:.3s;
+    background:#fff;
+}
+
+/* Hide Radio */
+.payment-methods input[type="radio"]{
+    display:none;
+}
+
+/* Logo */
+.payment-methods img{
+    width:90px;
+    height:45px;
+    object-fit:contain;
+}
+
+/* Hover */
+.payment-methods label:hover{
+    border-color:#0d6efd;
+    transform:translateY(-3px);
+}
+
+/* Selected */
+.payment-methods label:has(input:checked){
+    border-color:#28a745;
+    background:#eafaf0;
+    box-shadow:0 0 10px rgba(40,167,69,.35);
+}
+
+/* Pay Button */
+.pay-btn{
+    display:block;
+    width:100%;
+    height:45px;
+    margin:20px 0 0;
+    border:none;
+    border-radius:8px;
+    background:#0d6efd;
+    color:#fff;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    box-sizing:border-box;
+}
+.pay-btn:hover{
+    background:#084fc7;
+}
+
+/* Mobile */
+@media(max-width:480px){
+
+    .payment-box{
+        width:95%;
+        padding:20px;
+    }
+
+    .payment-methods{
+        grid-template-columns:1fr;
+    }
+
+    .payment-methods label{
+        height:80px;
+    }
+
+    .payment-methods img{
+        width:100px;
+        height:45px;
+    }
+
+    .doctor-img{
+        width:95px;
+        height:95px;
+    }
+
+    .pay-btn{
+        width:100%;
+    }
+}
