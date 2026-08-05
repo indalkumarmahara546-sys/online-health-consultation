@@ -150,10 +150,14 @@ session_start();
 <div class="footer-bottom">
     © 2025 All Rights Reserved.
 </div>
-
+        </div>
     <script>
 function toggleMenu(){
     document.getElementById("menu").classList.toggle("active");
-}</script>
-    </body>
+}
+
+
+
+</script>
+    
 </html>
